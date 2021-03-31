@@ -1,0 +1,11 @@
+How do you see the files changed within each commit from git log?
+
+Using "git log --stat" you will be able to see the commit messages and the commit refrences and the files that have been changed.
+
+How do you see the content of what changed within each file from the git log?
+In order to see what content changed between each commit use "git log --patch" This will show you what lines were added with a plus sign or which lines were removed with a 
+minus sign.
+
+What does HEAD refer to in the contect of git? (Not to be confused with the "HEAD<<<<" one observes within merge conflict)
+
+HEAD refers to the active or current branch in a git repository. If the Head refers to a specific revision not associated with a branch name we call this a detached HEAD.
